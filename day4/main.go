@@ -6,17 +6,6 @@ import (
 	"log"
 )
 
-func normaliseVal(maxLen int, i int) int {
-	if i < 0 {
-		return maxLen - 1
-	}
-	if i == maxLen {
-		return 0
-	}
-
-	return i
-}
-
 func checkMovable(y_index int, x_index int, y_len int, x_len int, warehouse [][]rune) bool {
 	adjacentStacks := 0
 
