@@ -163,4 +163,4 @@ Remove 1 roll of paper:
 So this would return `43`.
 
 # How to run
-`go run main.go`
+`go run .`
